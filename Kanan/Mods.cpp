@@ -21,6 +21,7 @@
 #include "TTFFontSize.hpp"
 #include "FriendlyNumbers.hpp"
 #include "SecondaryPassword.hpp"
+#include "ChineseBitmapFont.hpp"
 
 #include "Log.hpp"
 
@@ -112,6 +113,7 @@ namespace kanan {
         addMod(make_unique<FreezeTimeOfDay>());
         addMod(make_unique<FriendlyNumbers>());
         addMod(make_unique<SecondaryPassword>());
+        addMod(make_unique<ChineseBitmapFont>());
 
         log("[Mods] Finished loading mods.");
     }

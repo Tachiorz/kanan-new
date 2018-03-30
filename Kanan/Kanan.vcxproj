@@ -95,6 +95,7 @@
   <ItemGroup>
     <ClCompile Include="AutoSetMTU.cpp" />
     <ClCompile Include="BorderlessWindow.cpp" />
+    <ClCompile Include="ChineseBitmapFont.cpp" />
     <ClCompile Include="ColorAltText.cpp" />
     <ClCompile Include="D3D9Hook.cpp" />
     <ClCompile Include="DInputHook.cpp" />
@@ -122,6 +123,7 @@
   <ItemGroup>
     <ClInclude Include="AutoSetMTU.hpp" />
     <ClInclude Include="BorderlessWindow.hpp" />
+    <ClInclude Include="ChineseBitmapFont.hpp" />
     <ClInclude Include="ColorAltText.hpp" />
     <ClInclude Include="D3D9Hook.hpp" />
     <ClInclude Include="DInputHook.hpp" />

@@ -108,6 +108,9 @@
     <ClCompile Include="SecondaryPassword.cpp">
       <Filter>Source Files\Mods</Filter>
     </ClCompile>
+    <ClCompile Include="ChineseBitmapFont.cpp">
+      <Filter>Source Files\Mods</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="D3D9Hook.hpp">
@@ -186,6 +189,9 @@
       <Filter>Header Files\Mods</Filter>
     </ClInclude>
     <ClInclude Include="SecondaryPassword.hpp">
+      <Filter>Header Files\Mods</Filter>
+    </ClInclude>
+    <ClInclude Include="ChineseBitmapFont.hpp">
       <Filter>Header Files\Mods</Filter>
     </ClInclude>
   </ItemGroup>
